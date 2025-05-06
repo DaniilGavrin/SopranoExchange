@@ -1,0 +1,11 @@
+loaders:
+  - module: pydoc_markdown.loader.ModuleLoader
+    options:
+      modules:
+        - app  # Укажите путь к вашему модулю или пакету
+
+renderers:
+  - module: pydoc_markdown.renderer.MarkdownRenderer
+    options:
+      output: output.md  # Укажите имя выходного файла
+   
