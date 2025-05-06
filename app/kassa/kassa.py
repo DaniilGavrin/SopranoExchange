@@ -14,7 +14,7 @@ from settings import settings
         - cryptopay ключ
         - testnet - флаг тестового режима (False - если есть не тестовая, True - если сеть тестовая)
 """
-Crypto = cryptopay.Crypto("244640:AAMLyi8yUKRl1EYRHPQ3SGZMIoR5tEbXL4R", testnet = False)
+Crypto = cryptopay.Crypto("321142:AAhJRccalff9UUBIy5xN8XcWh5uqXeo62l4", testnet = False)
 
 
 def create_invoice(amount) -> tuple:
